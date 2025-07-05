@@ -7,11 +7,10 @@ import json
 from datetime import datetime
 import pandas as pd
 from fpdf import FPDF
-
-
-import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import gTTS
+import template
 
 load_dotenv()  # Charge les variables depuis le fichier .env
 
