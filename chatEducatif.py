@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 import pandas as pd
 from fpdf import FPDF
-import tempfile
+
 
 import os
 from openai import OpenAI
