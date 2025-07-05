@@ -9,7 +9,6 @@ import pandas as pd
 from fpdf import FPDF
 from openai import OpenAI
 from dotenv import load_dotenv
-from gtts import gTTS
 import tempfile
 
 load_dotenv()  # Charge les variables depuis le fichier .env
