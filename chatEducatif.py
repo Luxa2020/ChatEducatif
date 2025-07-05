@@ -7,7 +7,6 @@ import json
 from datetime import datetime
 import pandas as pd
 from fpdf import FPDF
-from rag_engine import client
 import tempfile
 
 import os
